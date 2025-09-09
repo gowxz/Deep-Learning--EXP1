@@ -90,21 +90,20 @@ X_n1_1=Scaler.transform(X_n1)
 model.predict(X_n1_1)
 
 ```
-# Initialize the Model, Loss Function, and Optimizer
+## DATASET INFORMATION:
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 090707.png"
 
 
-Dataset Information
-Include screenshot of the generated data
+## OUTPUT:
+### Training Loss Vs Iteration Plot:
+![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/a7b48087-1179-4781-8786-e3d160344202)
+### Epoch Training:
+![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/1247ecf7-80e4-4443-ab84-c09d0cd4d541)
+### Test Data Root Mean Squared Error:
+![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/0114d30a-8081-4205-a158-95efe5450804)
+### New Sample Data Prediction:
+![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/ea52cc7b-b09f-400c-90e8-a8170793c2ef)
 
 
-**OUTPUT**
-
-Training Loss Vs Iteration Plot Best Fit line plot Include your plot here
-
-**New Sample Data Prediction**
-
-Include your sample input and output here
-
-**RESULT**
-
-Thus, a neural network regression model was successfully developed and trained using PyTorch.
+## RESULT:
+Thus a basic neural network regression model for the given dataset is written and executed successfully.
