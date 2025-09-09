@@ -96,13 +96,13 @@ model.predict(X_n1_1)
 
 ## OUTPUT:
 ### Training Loss Vs Iteration Plot:
-![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/a7b48087-1179-4781-8786-e3d160344202)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 090731.png"
 ### Epoch Training:
-![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/1247ecf7-80e4-4443-ab84-c09d0cd4d541)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 090737.png"
 ### Test Data Root Mean Squared Error:
-![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/0114d30a-8081-4205-a158-95efe5450804)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 090748.png"
 ### New Sample Data Prediction:
-![image](https://github.com/Rithigasri/basic-nn-model/assets/93427256/ea52cc7b-b09f-400c-90e8-a8170793c2ef)
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 090755.png"
 
 
 ## RESULT:
