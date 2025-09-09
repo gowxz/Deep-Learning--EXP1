@@ -1,38 +1,30 @@
-**Developing a Neural Network Regression Model**
-
-**AIM**
+# EXPERIMENT 01: DEVELOPING A NEURAL NETWORK REGRESSION MODEL
+## AIM:
 To develop a neural network regression model for the given dataset.
 
+## THEORY:
+Neural network regression models learn complex relationships between input variables and continuous outputs through interconnected layers of neurons. By iteratively adjusting parameters via forward and backpropagation, they minimize prediction errors. Their effectiveness hinges on architecture design, regularization, and hyperparameter tuning to prevent overfitting and optimize performance.
+### Architecture:
+  This neural network architecture comprises two hidden layers with ReLU activation functions, each having 5 and 3 neurons respectively, followed by a linear output layer with 1 neuron. The input shape is a single variable, and the network aims to learn and predict continuous outputs.
 
-**THEORY**
+## NEURAL NETWORK MODEL:
+"C:\Users\admin\Pictures\Screenshots\Screenshot 2025-09-09 091224.png"
 
-Regression problems involve predicting a continuous output variable based on input features. Traditional linear regression models often struggle with complex patterns in data. Neural networks, specifically feedforward neural networks, can capture these complex relationships by using multiple layers of neurons and activation functions. In this experiment, a neural network model is introduced with a single linear layer that learns the parameters weight and bias using gradient descent.
-
-**Neural Network Model**
-Include the neural network model diagram.
-
-**DESIGN STEPS**
-
-**STEP 1: Generate Dataset**
-Create input values from 1 to 50 and add random noise to introduce variations in output values .
-
-**STEP 2: Initialize the Neural Network Model**
-Define a simple linear regression model using torch.nn.Linear() and initialize weights and bias values randomly.
-
-**STEP 3: Define Loss Function and Optimizer**
-Use Mean Squared Error (MSE) as the loss function and optimize using Stochastic Gradient Descent (SGD) with a learning rate of 0.001.
-
-**STEP 4: Train the Model**
-Run the training process for 100 epochs, compute loss, update weights and bias using backpropagation.
-
-**STEP 5: Plot the Loss Curve**
-Track the loss function values across epochs to visualize convergence.
-
-**STEP 6: Visualize the Best-Fit Line**
-Plot the original dataset along with the learned linear model.
-
-**STEP 7: Make Predictions**
-Use the trained model to predict for a new input value .
+## DESIGN STEPS:
+### STEP 1:
+Loading the dataset.
+### STEP 2:
+Split the dataset into training and testing.
+### STEP 3:
+Create MinMaxScalar objects ,fit the model and transform the data.
+### STEP 4:
+Build the Neural Network Model and compile the model.
+### STEP 5:
+Train the model with the training data.
+### STEP 6:
+Plot the performance plot
+### STEP 7:
+Evaluate the model with the testing data.
 
 ## PROGRAM:
 ### Name: Gowtham S
