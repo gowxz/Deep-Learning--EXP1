@@ -9,8 +9,6 @@ Neural network regression models learn complex relationships between input varia
 
 ## NEURAL NETWORK MODEL:
 <img width="1122" height="491" alt="Screenshot 2025-09-09 091224" src="https://github.com/user-attachments/assets/2e3c602b-ef0b-4d0c-94c7-638086b4da79" />
-
-
 ## DESIGN STEPS:
 ### STEP 1:
 Loading the dataset.
@@ -85,23 +83,15 @@ model.predict(X_n1_1)
 ```
 ## DATASET INFORMATION:
 <img width="338" height="707" alt="Screenshot 2025-09-09 090707" src="https://github.com/user-attachments/assets/968a526e-4ab1-41a2-8275-bcec6e972657" />
-
-
-
 ## OUTPUT:
 ### Training Loss Vs Iteration Plot:
 <img width="923" height="686" alt="Screenshot 2025-09-09 090731" src="https://github.com/user-attachments/assets/747e54a0-3bd3-4a48-abb7-52b76cebdf1c" />
-
 ### Epoch Training:
 <img width="939" height="270" alt="Screenshot 2025-09-09 090737" src="https://github.com/user-attachments/assets/1eb3aaf9-a823-4626-9d2f-e5c6cab7bd3b" />
-
 ### Test Data Root Mean Squared Error:
 <img width="928" height="93" alt="Screenshot 2025-09-09 090748" src="https://github.com/user-attachments/assets/0ee3d119-5804-4a63-bde0-eb7b15191f08" />
-
 ### New Sample Data Prediction:
 <img width="770" height="93" alt="Screenshot 2025-09-09 090755" src="https://github.com/user-attachments/assets/a4adede1-a4dc-4291-a78f-73880ae0c125" />
-
-
 
 ## RESULT:
 Thus a basic neural network regression model for the given dataset is written and executed successfully.
